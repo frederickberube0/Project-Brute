@@ -1,0 +1,36 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body><div class="login-box">
+    <h2>Project Brute</h2>
+    {% block content %}
+    <form action="#" method="post">
+      <div class="user-box">
+        <input type="text" name="Prefix" required="">
+        <label>Prefix</label>
+      </div>
+      <div class="user-box">
+        <input type="text" name="Suffix" required="">
+        <label>Suffix</label>
+      </div>
+          <div class="user-box">
+        <input type="text" name="Start" required="">
+        <label>Starting Integer</label>
+      </div>
+              <div class="user-box">
+        <input type="text" name="End" required="">
+        <label>Ending Integer</label>
+      </div>
+      <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <p><input type="submit" value= "submit" /></p>
+      </a>
+    </form>
+    {% endblock %}
+  </div>
+</body>
+</html>
